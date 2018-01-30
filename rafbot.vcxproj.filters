@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\hlt">
+      <UniqueIdentifier>{262b35c6-19d1-4fe9-a17f-52c97045dd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\raf">
+      <UniqueIdentifier>{2ae06b85-851c-4532-a15a-c0df34946f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\raf\game">
+      <UniqueIdentifier>{96aeda80-0493-4444-832f-513ea7a6471a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\raf\math">
+      <UniqueIdentifier>{c5ae58b8-d083-45bb-b067-e722f0e44ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\raf">
+      <UniqueIdentifier>{6bf4a515-784d-4173-9495-8de6e4c6bb1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\raf\game">
+      <UniqueIdentifier>{a71ffc05-01b8-408e-b22b-811c57216437}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hlt\hlt_in.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hlt\location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hlt\map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\entity.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\game.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\map_state.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\navigation.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\path.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\planet.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\player.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\ship.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\squad.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\collision.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+    <ClCompile Include="raf\game\path_finder.cpp">
+      <Filter>Source Files\raf\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hlt\collision.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\constants.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\entity.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\hlt.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\hlt_in.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\hlt_out.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\location.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\log.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\map.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\move.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\navigation.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\planet.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\ship.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\types.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="hlt\util.hpp">
+      <Filter>Header Files\hlt</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\raf.hpp">
+      <Filter>Header Files\raf</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\util.hpp">
+      <Filter>Header Files\raf</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\math\math.hpp">
+      <Filter>Header Files\raf\math</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\map_state.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\planet.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\player.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\ship.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\squad.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\entity.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\game.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\constants.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\types.hpp">
+      <Filter>Header Files\raf</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\navigation.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\collision.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\path.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\log.hpp">
+      <Filter>Header Files\raf</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\stdlib_util.h">
+      <Filter>Header Files\raf</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\hlt_fwd.hpp">
+      <Filter>Header Files\raf</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\decision.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+    <ClInclude Include="raf\game\path_finder.hpp">
+      <Filter>Header Files\raf\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

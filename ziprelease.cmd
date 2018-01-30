@@ -1,0 +1,1 @@
+"C:\Program Files\WinRAR\WinRAR.exe" -afzip a vxx_raf.zip -x*_test.cpp raf hlt mybot.cpp

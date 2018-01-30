@@ -1,0 +1,15 @@
+Ships always moving to previous position to attack. Should move to predicted
+----------------------------------------------------------------
+https://halite.io/play/?game_id=4142923&replay_class=1&replay_name=replay-20171206-150746%2B0000--1348130620-336-224-1512572865
+
+
+
+Not conquering the best planets strategically due to spawn point being close to other planets
+----------------------------------------------------------------
+https://halite.io/play/?game_id=4149756&replay_class=1&replay_name=replay-20171206-171129%2B0000--177443443-240-160-1512580284
+
+
+
+Not docking all on same planet causes reduced production and leaves docked planets open to attack
+----------------------------------------------------------------
+https://halite.io/play/?game_id=4149533&replay_class=1&replay_name=replay-20171206-170819%2B0000--4287660046-312-208-1512580099

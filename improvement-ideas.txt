@@ -1,0 +1,73 @@
+Iterate over all moves before end of frame
+- IF two ships are headed to same docked target on a similar plane, slow the one in front down so they arrive together
+
+Planet choice
+- If a larger planet is only a small distance further, then prefer this to a small planet as it has less total cost once spawning
+
+
+Docking
+--- dont dock if imminent attack is coming. Sitting duck.
+
+Dock near spawn point or furthest point from nearest opponent.
+
+Choose next planet based on average position of currently owned planets.
+Prevents over spreading of resource becoming difficult to defend.
+
+
+
+Defence
+Widen defence to size of nearest planet if within small distance of planet?
+e.g. if a ship spawns near planet and that planets docked planets are under attack, save them
+
+
+Two player start of game strategy.
+
+While no ships have been docked by enemy have a flag.
+While we have not docked also flag that "the game" has not started yet
+It takes 5 turns to dock 3 ships and 4 turns to make a ship
+In 11 turns two ships will spawn and if the enemy sent three ships to attack from a distance of 11 turns away then they will very likely lose battle against 2 ships attacking and 5 ships absorbing damage
+#
+
+
+-- papers --
+https://dspace.lboro.ac.uk/dspace-jspui/bitstream/2134/17861/1/SCIE_CA.pdf
+https://www.gamasutra.com/view/feature/3015/pool_hall_lessons_fast_accurate_.php?page=3
+
+
+Useful line stuff
+http://paulbourke.net/geometry/pointlineplane/
+https://bl.ocks.org/milkbread/11000965
+
+
+https://gsamaras.wordpress.com/code/determine-where-two-circles-intersect-c/
+http://paulbourke.net/geometry/circlesphere/
+
+
+---- 2d math ---
+Calculating adjustment angle to prevent collision
+
+If bounding boxes dont overlap
+find diff between bounding box edges
+
+
+Angle between bounding box pointss
+
+e.g for X axis only, if x bounds have no gap angle is direct up
+if there is a gap you calculate that vector them thrust from the origin at that angle.
+
+
+----
+Optimise for used map sizes
+
+240x160
+264x176
+288x192
+312x208
+336x224
+360x240
+384x256
+
+
+----
+If you approach at the right angle, can you destroy i.e. collide with two ships at once?
+
